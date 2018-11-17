@@ -10,11 +10,11 @@ grdalmas</br>
 jlobjois consultant en mathématique</br>
 
 # Install and Run (MacOS & Linux only)
-`git clone https://github.com/banthony42/Wolf3D.git`</br>
+`git clone https://github.com/grdalmas/Wolf3D.git`</br>
 </br>
 `cd Wolf3D`</br>
 </br>
-`git clone https://github.com/banthony42/libft.git`</br>
+`git clone https://github.com/grdalmas/libft.git`</br>
 </br>
 `make`</br>
 </br>
