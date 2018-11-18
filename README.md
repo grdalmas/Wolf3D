@@ -14,7 +14,7 @@ jlobjois consultant en mathématique</br>
 </br>
 `cd Wolf3D`</br>
 </br>
-`git clone https://github.com/grdalmas/libft.git`</br>
+`git clone https://github.com/banthony42/libft.git`</br>
 </br>
 `make`</br>
 </br>
