@@ -17,7 +17,9 @@ void	draw_palette(t_wolf *w)
 	t_coord	pt;
 	t_coord	box;
 	t_coord	item_size;
-	int		i;
+	/* Under Linux not having an UNSIGNED value here generates an error
+	   when comparing it with a signed value (w->map_crea.texture) */
+	unsigned int		i;
 
 	i = -1;
 	item_size.x = ITEM_SIZE;

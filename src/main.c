@@ -69,7 +69,8 @@ int				main(int ac, char **av)
 		ft_exit(ERR_OPEN, -1);
 	while ((get_next_line(fd, &line)) > 0)
 	{
-		tmp = ft_strtrim2(line);
+		/* GCC under linux complains about ft_strtrim2 taking two args */
+		tmp = ft_strtrim(line);
 		wolf.map = ft_tabadd(wolf.map, tmp);
 		ft_strdel(&tmp);
 		ft_strdel(&line);

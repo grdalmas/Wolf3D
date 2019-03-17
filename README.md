@@ -22,6 +22,9 @@ jlobjois consultant en mathématique</br>
 
 Le pacakge xorg est requis
 
+# Linux specifics
+
+You will need to intall libbsd-dev.
 
 # Bugs connus
 Game:
